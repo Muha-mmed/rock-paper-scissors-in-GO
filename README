@@ -1,0 +1,32 @@
+# Rock Paper Scissors Game
+
+This is a simple command-line implementation of the classic Rock-Paper-Scissors game written in Go. The player competes against the computer, and each game outcome is displayed along with a running score.
+
+## How It Works
+
+1. The game presents three options: "rock," "paper," and "scissors."
+2. The player inputs their choice.
+3. The computer randomly selects one of the three options.
+4. The winner is determined by traditional Rock-Paper-Scissors rules:
+   - Rock beats Scissors
+   - Scissors beat Paper
+   - Paper beats Rock
+5. The score is updated after each round, and the game continues until manually stopped.
+
+## Features
+
+- Keeps track of the player's and computer's scores.
+- Displays the result of each round (win, lose, or tie).
+- Simple command-line interface.
+
+## Getting Started
+
+### Prerequisites
+
+- Go (Golang) installed on your machine.
+
+### Installation
+
+1. Clone the repository or download the source code:
+   ```bash
+   git clone https://github.com/your-username/rock-paper-scissors
